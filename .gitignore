@@ -12,5 +12,6 @@ node_modules
 
 # Ignore SASS config files
 .sass-cache
+# Ignore the hand that feeds!
 
 .gitignore
