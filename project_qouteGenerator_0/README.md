@@ -13,6 +13,11 @@ The project is about generating random qoutes when you click on the button.
         - change the content of the existing qoute 
         - change the content of the author para
 2. a random qoute + author will be picked
-    - declare an array and assign diffrent qoutes. 
+    - declare an array called myQoutes and assign diffrent qoutes. 
     - how can you have qoutes and authour linked togther in an array?
 3. the existing qoute will be changed to the new quote and the author cahnged as well.
+
+# Credits
+
+1. Background image 
+    Photo by Nicole Avagliano from Pexels: https://www.pexels.com/photo/milk-way-2706654/
