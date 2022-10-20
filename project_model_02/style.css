@@ -1,0 +1,46 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url(images/bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-color: #020202;
+
+}
+
+.btn_container {
+    /* border: 1px solid white; */
+    background: rgba(27, 27, 27, 0.4);
+    height: 100%;
+    width: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+
+}
+
+.button {
+    background-color: #e6c47d;
+
+    border: none;
+    text-decoration: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+.button:hover {
+    background-color: #ccb178;
+
+}
