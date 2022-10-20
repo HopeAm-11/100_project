@@ -28,11 +28,9 @@ body {
     justify-items: center;
 }
 
-.container>* {}
-
 .qoate_container {
-    width: 30rem;
-    height: 20rem;
+    width: 35rem;
+    height: 15rem;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -44,10 +42,11 @@ body {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    background-color: rgb(102, 102, 102);
+    background-color: rgb(143, 96, 117);
     opacity: 0.9;
+    border: 1px solid rgb(70, 1, 41);
     border-radius: 10px;
-    color: #fff;
+    color: rgb(252, 252, 252);
 }
 
 .qoate_container>* {
@@ -64,6 +63,11 @@ body {
 }
 
 button {
-    width: 50%;
+    width: 30%;
     height: 40%;
+    background-color: #571d25;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
 }
