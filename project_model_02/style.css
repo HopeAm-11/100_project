@@ -1,5 +1,8 @@
 .container {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border: 1px solid red;
+    /* display: inline-block; */
     width: 100%;
     height: 100%;
     background: url(images/bg.jpg) no-repeat center fixed;
@@ -9,7 +12,7 @@
 }
 
 .btn_container {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     background: rgba(27, 27, 27, 0.4);
     height: 100%;
     width: 10rem;
@@ -43,4 +46,54 @@
 .button:hover {
     background-color: #ccb178;
 
+}
+
+@-webkit-keyframes ani {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+@-webkit-keyframes animation1 {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+
+
+.empty_box {
+    position: relative;
+    justify-self: center;
+    width: 30rem;
+    height: 30rem;
+    background-color: #fff;
+    -webkit-animation-name: animation1;
+    animation-name: animation1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+
+}
+
+@keyframes animation1 {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 100px;
+    }
 }

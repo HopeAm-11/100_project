@@ -1,2 +1,2 @@
 const button = document.querySelector('#btn');
-const button = document.querySelector('#box_model');
+const container = document.querySelector('#box_model');

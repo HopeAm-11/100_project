@@ -8,7 +8,8 @@
     1.2 add event listner to variable button
 2. a page will appear with info about saturn with animation going down
     1. declare a variable called container with value of id 'box_model'
-    
+    2. 
+
 3. the page bg will darken
 
 
