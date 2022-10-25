@@ -51,22 +51,17 @@
     text-transform: capitalize;
     border: 1px solid white;
     color: #fff;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 
 }
 
 .button:hover {
     background-color: #ccb178;
 
-}
 
-@-webkit-keyframes ani {
-    from {
-        top: 0px;
-    }
 
-    to {
-        top: 200px;
-    }
 }
 
 @-webkit-keyframes animation1 {
@@ -90,10 +85,10 @@
     background-color: #fff;
     -webkit-animation-name: animation1;
     animation-name: animation1;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; */
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 
