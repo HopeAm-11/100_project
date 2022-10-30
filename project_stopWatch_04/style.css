@@ -2,3 +2,72 @@ body {
     background: url("images/bg.jpg") no-repeat center;
     background-size: cover;
 }
+
+.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    height: 100%;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 50rem;
+    height: 15rem;
+    background-color: #fff;
+}
+
+.timer_container {
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+}
+
+.icon_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid rgb(12, 56, 18); */
+
+}
+
+.icon_container>* {
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bi {
+    width: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.play {
+    background-color: brown;
+    color: #fff;
+
+}
+
+.reset {
+    background-color: rgb(30, 105, 61);
+    color: #fff;
+
+}
